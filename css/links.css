@@ -1,0 +1,80 @@
+  /*From w3Schools*/
+
+.links:link, .links:visited {
+    background-color: #4f98ca;
+    color: #fff;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    
+    }
+      /*From w3Schools*/
+
+    .links:hover, .links:active {
+    background-color: #effffb;
+    color:#000;
+    }
+    
+ 
+    .fab1 {
+  
+        color:#50d890;
+        
+        }
+          /*From w3Schools*/
+
+        .fab1:link, .fab1:visited {
+        background-color: #015994;
+        color: #fff;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        }
+        
+        .fab1:hover, .fab1:active {
+        color:#059448;
+        }
+        
+        
+        /*From w3Schools*/
+
+        
+        .fab2 {
+        background-color: #015994;
+        color:#059448;
+        
+        }
+          /*From w3Schools*/
+
+        .fab2:link, .fab2:visited {
+        background-color: #015994;
+        color: #fff;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        }
+        
+        .fab2:hover, .fab2:active {
+        color:#059448;
+        }
+
+        @media (max-width: 600px) {
+        
+        
+            .links {
+                font-size: 15px;
+                }
+                
+        
+        
+        }
+
+
+
+
+
