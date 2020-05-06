@@ -1,2 +1,2 @@
-# Advoron
-A website to gather data from people all over the world to get their opinions on various topics
+# Udacity-Projects
+Some of my projects from Udacity (another step toward the future)

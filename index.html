@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Superior Fighting</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/blog.css" type="text/css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f482ec13f3.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Page Header-->
+  <div class="header">
+    <h2>Climate Crisis</h2>
+  </div>
+  <!-- Nav Bar-->
+
+  <nav>
+    <table>
+      <tr>
+
+        <td><a class="links" href="index.html">Home</a>
+        </td>
+      
+
+      </tr>
+    </table>
+  </nav>
+  <div>
+  </div>
+
+
+
+
+  <div class="int">
+
+    <div class="intc">
+     <img class="intimg" height="500px" width="580px;" src="/img/recy.jpg">
+    </div>
+
+    <div class="intc">
+
+      <h2 class="blogt">Welecome to My Personal Blog!</h2>
+      <p class="intp">This blog is all about different martial arts styles, from Akido to Krav Maga. My goal is to
+        develop a
+        community of people who are similar to me, people who love practicing martial arts, people who want to
+        learn how to defend themselves, people who are interested in learning about various cultures through their
+        martial art(s).
+      </p>
+
+      </br>
+
+      <p class="intp">
+        Personally, I am doing Taekwondo but I used to do karate and judo. Martial arts isn't only a hobby, it's
+        something that defines who I am as an individual. Besides taekwdondo, I love programming, reading, and
+        running besides a serene landscape.
+
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <center>
+    <div class=fetp>
+
+      <h3 id="feth"> Best Post of the Day:</h3>
+      <div class="fetc">
+        <center>
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSc-xNvmG-fxI7SP6uuyR4Cylt0FHYMnFnv7C_ytK4O_q7qy-Q/viewform?embedded=true"
+            style="width:450px; height:500px;" frameborder="0" marginheight="200px" marginwidth="0">Loading…</iframe>
+        </center>
+      </div>
+
+
+    </div>
+  </center>
+
+
+
+    </div>
+
+  </div>
+
+  <center>
+    <div class="grid-c">
+      <h4 id="foll">Follow Me On These Platforms!</h4>
+
+
+      <div class="grid-container">
+        <div class="grid-item">
+          <a href="#"><i class="fab fab1 fa-twitter"></i></a>
+        </div>
+
+        <div class="grid-item">
+
+          <a href="#"><i class="fab fab1 fa-facebook"></i></a>
+
+        </div>
+
+        <div class="grid-item socl">
+
+          <a href="#"><i class="fab fab1 fa-linkedin"></i></a>
+
+        </div>
+
+      </div>
+    </div>
+  </center>
+  <script>
+
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+
+  </script>
+  <script type="text/javascript" src="../src/main.js"></script>
+</body>
+
+</html>
