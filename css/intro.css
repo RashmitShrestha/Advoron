@@ -75,3 +75,22 @@
 
         
         }
+
+
+
+        @media (max-width: 400px) {
+        
+        
+          .intimg {
+              height:250px;
+              width:300px;
+              }
+              .formel {
+                height:7150px;
+                width:300px;
+              
+              }
+
+      
+      }
+
