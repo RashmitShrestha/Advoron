@@ -2,21 +2,22 @@
 <html lang="en">
 
 <head>
-  <title>The Advonauts - CC</title>
+  <title>The Advonauts</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/blog.css" type="text/css" rel="stylesheet">
+  <link href="css/Index/blog-in.css"  type="text/css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/f482ec13f3.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
-</head>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet"></head>
 
 <body>
   <!-- Page Header-->
-  <div class="header">
-    <h2>Climate Crisis</h2>
+  <div data-aos="fade-left" class="header">
+    <h2>The Advonauts</h2>
   </div>
   <!-- Nav Bar-->
 
@@ -27,6 +28,11 @@
         <td><a class="links" href="index.html">Home</a>
         </td>
       
+        <td><a class="links" href="main/clim.html">Climate Crisis</a>
+        </td>
+
+        <td><a class="links" href="main/coron.html">COVID -19</a>
+        </td>
 
       </tr>
     </table>
@@ -34,22 +40,38 @@
   <div>
   </div>
 
+  <div data-aos="fade-right" class="int">
+
+<!-- Slide Show -->
+<section class="intc" style="margin: 20px; ">
+  <center>
+    <img class="mySlides" class="intimg" src="img/recy.jpg"
+  style="box-shadow: 15px 15px #8bbabb ; height:70%; width:70%">
+  <img class="mySlides" class="intimg" src="img/view.jpg" 
+  style="box-shadow: 15px 15px #8bbabb ; height:70%;  width:70%">
+  <img class="mySlides" class="intimg" src="img/sacr.jpg" 
+  style="box-shadow: 15px 15px #8bbabb ; height:70%;  width:70%">
+  <img class="mySlides" class="intimg" src="img/light.jpg" 
+  style="box-shadow: 15px 15px #8bbabb ; height:70%;  width:70%">
+
+</center>
+</section>
 
 
 
-  <div class="int">
 
-    <div class="intc">
-     <img class="intimg" height="500px" width="580px;" src="img/recy.jpg">
-    </div>
 
     <div class="intc">
 
       <h2 class="blogt">A bit about my mission...</h2>
       <p class="intp">
-        Hey everyone, the purpose of this website is for you to write about the climate crisis. Feel free to go on long rants, exposing
-        the egocentric actions of world leaders, or maybe just writing about a possible solution to the problem. It could be basically anything
-      about climate change. Unleash your thoughts!      </p>
+        Hey everyone, the purpose of this website and all of its components are for you to 
+        express your opinions and ideas. This is a safe place for you to write about anything 
+        you want, which you get to decide if you want to be anonymous when I post to 
+        Instagram.  Feel free to go on long rants, maybe exposing the egocentric actions of 
+        world leaders, or maybe just writing about a possible solution to the problem(s). 
+        Just make sure that it’s PG (basically complying to any rules on any social media 
+        platforms) Unleash your thoughts!       </p>
 
       </br>
 
@@ -61,16 +83,15 @@
 
 
   <center>
-    <div class=fetp>
+    <div  data-aos="zoom-in" class=fetp>
 
-      <h3 id="feth">Form here:</h3>
+      <h3 id="feth">Meet the "Team"</h3>
       <div class="fetc">
         <center>
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSc-xNvmG-fxI7SP6uuyR4Cylt0FHYMnFnv7C_ytK4O_q7qy-Q/viewform?embedded=true"
-            style="width:350px; height:500px;" class="formel" frameborder="0" marginheight="200px" marginwidth="0">Loading…</iframe>
-        </center>
+          <img  class="intimg" src="img/yaboi.jpg"
+          style="box-shadow: 15px 15px #8bbabb ; height:70%; width:70%">      </center>
       </div>
+      <h5 style="text-decoration: none;" id="feth">It's only me, I am my own team 😆</h3>
 
 
     </div>
@@ -84,59 +105,43 @@
 
   <center>
     <div class="grid-c">
-      <h4 id="foll">Follow Me On These Platforms!</h4>
+      <h4 >Thank you so much for your help, just by visiting this page, you're doing the world a huge favor!</h4>
 
+      <h4 id="foll">Follow This Page on Instagram!</h4>
 
-      <div class="grid-container">
-        <div class="grid-item">
-          <a href="https://www.instagram.com/theadvonauts/"><i class="fab fa-instagram"></i>
-          </a>
-        </div>
-        <div class="grid-item">
-          <a href="https://www.instagram.com/theadvonauts/"><i class="fab fa-instagram"></i>
-          </a>
-        </div>
-        <div class="grid-item">
-          <a href="https://www.instagram.com/theadvonauts/"><i class="fab fa-instagram"></i>
-          </a>
-        </div>
+      <div style="font-size: 30px; margin:10px;" >
+        <a href="https://www.instagram.com/theadvonauts/"><i class="fab fa-instagram"></i>
+        </a>
+      </div>
 
       </div>
     </div>
   </center>
   <script>
 
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
 
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
+function carousel() {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
 }
 
 
   </script>
-  <script type="text/javascript" src="../src/main.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
